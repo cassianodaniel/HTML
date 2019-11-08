@@ -1,0 +1,2 @@
+//setInterval(exibeAlgo, 20000); //executa funcao exibeAlgo 1x a cada 1000ms
+//setTimeout(exibeAlgo, 1000); //executa apenas uma vez, porém após 1000ms
