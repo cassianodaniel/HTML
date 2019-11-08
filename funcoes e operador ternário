@@ -1,0 +1,22 @@
+function retornaSexo(sexo){
+    mouf = sexo;
+    switch(mouf){
+        case 'M':
+            return 'Masculino';
+        case 'F':
+            return 'Feminino';
+        default:
+            return 'Outro';
+    }
+}
+
+function exibeAlgo(){
+    console.log('Algo');
+}
+
+var aux = 'M';
+var resultadosexo = retornaSexo(aux);
+console.log(resultadosexo);
+
+var retornoternario = (resultadosexo == 'Masculino') ? 'Masculino' : 'Feminino';
+console.log(retornoternario);
