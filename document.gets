@@ -1,0 +1,9 @@
+var inputElement = document.querySelector('input[name = nome]');
+var btnElement = document.querySelector('button.botao');
+//var inputElement = document.querySelector('body header h1 input'); 
+//var inputElement = document.querySelectorAll('input'); 
+
+btnElement.onclick = function(){
+    var text = inputElement.value;
+    alert(text);
+}
