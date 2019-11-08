@@ -1,0 +1,7 @@
+/*operadores
+if (true == 'true')  // aqui vai dar true
+if (true == '1')     // aqui vai dar true
+if (true == true)    // aqui vai dar true
+if (true === 'true') // aqui vai dar false
+if (true === '1')    // aqui vai dar false
+if (true === true)   // aqui vai dar true */
