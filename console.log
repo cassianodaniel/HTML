@@ -1,0 +1,11 @@
+console.log("Hello, Daniel!");
+
+var alunos = ['Daniel', 'Pedro', 'José'];
+console.log(alunos[0]);
+
+var caracteristicas = {
+    cor: 'Preto',
+    idade: 24,
+    humano: true
+}
+console.log(caracteristicas.cor);
