@@ -1,0 +1,8 @@
+var boxElement = document.getElementById("caixa");
+
+boxElement.style.width = 100;
+boxElement.style.height = 100;
+boxElement.style.backgroundColor = '#f00'; //background-color há um hífen, portanto, o hífen em JS será
+//substituido pela letra que vem após o hífen, estando em MAIÚSCULO
+
+
