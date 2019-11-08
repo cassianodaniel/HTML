@@ -1,0 +1,7 @@
+var linkElement = document.createElement('a'); //<a></a>
+linkElement.setAttribute('href', 'http://rocketseat.com.br'); //<a href = ...></a>
+var textElement = document.createTextNode('Acessar site da RocketSeat');
+linkElement.appendChild(textElement); //linkElement recebe a var textElement
+
+var containerElement = document.getElementById("app");
+containerElement.appendChild(linkElement); //adiciona linkElement para containerElement (tudo que tem classe app)
