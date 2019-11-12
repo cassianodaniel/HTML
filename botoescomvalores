@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    var nomes = ["Daniel", "Joao", "Pedro"];
+    nomes[0].id = 'D';
+    nomes[1].id = 'J';
+    nomes[2].id = 'P';
+function printContent(el){
+	var restorepage = document.body.innerHTML;
+	var printcontent = document.getElementById(el).innerHTML;
+	document.body.innerHTML = printcontent;
+	window.print();
+	document.body.innerHTML = restorepage;
+}
+</script>
+</head> 
+<body>
+<li id="li1"></li>
+<button onclick="printContent('D')">Conteúdo:</button>
+<li id="li2"></li>
+<button onclick="printContent('J')">Conteúdo:</button>
+<li id="li3"></li>
+<button onclick="printContent('P')">Conteúdo:</button>
+</body> 
+</html>
