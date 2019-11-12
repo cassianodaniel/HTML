@@ -1,0 +1,42 @@
+var todos = ["Tomar café", "Tomar banho", "Se arrumar"];
+function renderTodos(){ //funcao que cria todos em tela
+    ListElement.innerHTML = ''; //remover todos os itens
+    for (todo of todos){
+        var todoElement = document.createElement('li');
+        var todoText = document.createTextNode(todo);
+
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', '#');
+
+        var pos = todos.indexOf(todo);
+        linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
+
+        var linkText = document.createTextNode('Excluir');
+
+        linkElement.appendChild(linkText);
+
+        todoElement.appendChild(todoText);
+        todoElement.appendChild(linkElement);
+
+        HTMLDataListElement.appendChild(todoElement);
+    }
+}
+
+renderTodos();
+
+function addTodo(){
+    var todoText = input.Element.value;
+    todos.push(todoText); //adicoinando novo item no array
+    inputElement.value = '' //apagando texto atual do input
+    renderTodos(); //renderizar com o novo item que foi adicionado
+}
+
+buttonElement.onclick = addTodo;
+
+function deleteTodo(pos){
+    todos.splice(pos, 1) //a partir de pos, remova um item
+    renderTodos();
+}
+
+//https://skylab.rocketseat.com.br/node/curso-java-script/group/app-de-todos/lesson/excluindo-todos
+//App de Todos: Excluindo todos
