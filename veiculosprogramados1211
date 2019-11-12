@@ -1,0 +1,32 @@
+class Veiculo{
+  public:
+  string cor;
+  string modelo;
+  int anoFabricacao;
+  bool ligado;
+}
+
+void ligar(){
+  ligado = true;
+}
+
+void desligar(){
+  ligado = false;
+}
+
+void acelerar(double v){
+  velocidade += v;
+}
+
+void frear(double v){
+  velocidade -= v;
+}
+
+int main(){
+Veiculo vMaritan;
+Veiculo v2;
+
+vMaritan.modelo = "Ferrari F-50";
+
+return 0;
+}
