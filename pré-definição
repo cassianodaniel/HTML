@@ -1,0 +1,6 @@
+
+li.edit input{
+display: initial;
+}
+
+//todo li que tiver uma tag input dentro dele será pré-definido o seu display inicial
