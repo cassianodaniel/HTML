@@ -1,0 +1,13 @@
+var idade = window.prompt("Qual é a sua idade?");
+/*if (idade > 18){
+window.alert("Você pode entrar neste site!");}
+if (idade < 18){
+    for(var i = 0; i < 3000000000000; i++){
+        window.alert('Saia daqui! Você tem só' + idade + 'anos!');
+    }
+}
+//window.confirm(idade);
+//window.prompt('Digite o seu nome:')*/
+var y = window.prompt("Digite um numero: ");
+var s = Number(idade) + Number(y); //se a declaração Number não for especificada, a string será concatenada;
+window.alert(s);
