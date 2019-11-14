@@ -1,0 +1,7 @@
+var s = 'JavaScript'
+
+s.lenght //quantos caracteres a string tem
+s.toUpperCase() //tudo para MAIÚSCULAS
+s.toLowerCase() //tudo para MINÚSCULAS
+document.write(<h1> 'Seu nome possui' s 'letras' </h1>) //escreve diretamente na página
+
