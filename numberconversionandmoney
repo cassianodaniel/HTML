@@ -1,0 +1,4 @@
+var n1 = 1545.5
+n1.toFixed(2) //n1 = 1545.50
+n1.toFixed(2).replace('.', ','); //conversão de ponto para vírgulas
+n1.toLocateString('pt-BR', {style: 'currency', currency: 'BRL'}}) //n1 em real
