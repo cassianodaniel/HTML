@@ -1,3 +1,9 @@
+var elem = document.querySelectorAll('p'); //elementos p
+var elem = document.querySelectorAll('p, h1'); //elementos p e h1
+var elem = document.querySelectorAll('.warning'); //classes warning
+var elem = document.querySelectorAll('#nav'); //ids nav
+var elem = document.querySelectorAll('span.fatal.error '); //elementos span.fatal.error
+
 var inputElement = document.querySelector('input[name = nome]');
 var btnElement = document.querySelector('button.botao');
 //var inputElement = document.querySelector('body header h1 input'); 
