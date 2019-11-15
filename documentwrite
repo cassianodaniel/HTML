@@ -1,0 +1,4 @@
+<script>
+var p1= document.GetElementsByTagName('p')
+window.document.write('Printando a var p1: ' + p1.InnerText)
+</script>
