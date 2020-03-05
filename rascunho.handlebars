@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var operacao = new Object();
+        operacao.nome = "Soma";
+        operacao.valorA = 20;
+        operacao.valorB = 80;
+        operacao.soma = function(){
+            return (operacao.valorA + operacao.valorB);
+        }
+        
+        var nome = operacao.nome;
+        var valorA = operacao.valorA;
+        var valorB = operacao.valorB;
+
+        document.writeln(`<p> NOME DA OPERACAO: ${operacao.nome}. </p>`)
+        document.writeln(`<p> VALOR A: ${operacao.valorA}.<\p>`)
+        document.writeln(`<p> VALOR B: ${operacao.valorB}. </p>`)
+        document.writeln(`<p> SOMA DE A E B: ${operacao.soma()}.<\p>`)
+    </script>
+</body>
+</html>
